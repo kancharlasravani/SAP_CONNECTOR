@@ -10,7 +10,7 @@ namespace SAP_CONNECTOR
     {
         /// <summary>
         /// The main entry point for the application.
-        /// SAP Connector
+        /// SAP Connector1
         /// Sravani SAP Connector
         /// </summary>
         [STAThread]
