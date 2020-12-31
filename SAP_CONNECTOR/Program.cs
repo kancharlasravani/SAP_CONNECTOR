@@ -10,6 +10,7 @@ namespace SAP_CONNECTOR
     {
         /// <summary>
         /// The main entry point for the application.
+        /// SAP Connector
         /// </summary>
         [STAThread]
         static void Main()
