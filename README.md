@@ -3,7 +3,18 @@ This project is useful for anyone who wants to [integrate SAP with third party a
 
 The code demonstrate how NCO 3.0 library can be used for connecting with SAP ECC or S/4 HANA using the required parameters (listed below) and then subsequently be used for making a call to read information from SAP. The NCO File can be downloaded from SAP Service Market place. This library is not provided in the code repository. 
 
-# SAP Integration using NCO 3.0 - Authenticating with SAP 
+### SAP NCO 3.0 Project - Installation / Pre-requisite
+Before your start with this project, you need to have the following aspects set up. 
+
+* You have the latest version of .NET framework installed on your machine 
+* You must also have an IDE for running and debugging a .NET code
+* You must have downloaded the NCO 3.0 library from the SAP Service market place
+* Access to working SAP ECC or S/4 instance is required
+
+### SAP NCO 3.0 Project - How to use  (Objective)  
+The objective of this repository is to have your .NET code connect and authenticate with SAP environment. Subsequently it helps you to read information from SAP on a real time basis by quering database.  
+
+### SAP Integration using NCO 3.0 - Authenticating with SAP 
 While authenticating with SAP using NCO 3.0, the following parameters need to be specified.
 
 * SAP_USERNAME - This is the SAP user name with which the call will be made. Ensure that it has proper authority. 
@@ -15,4 +26,12 @@ While authenticating with SAP using NCO 3.0, the following parameters need to be
 * SAP_POOLSIZE - The pool size for the RFC call. 
 
 ### Making a call to SAP for reading company codes
-Further this example shows how a .NET code can be subsequently used for calling a BAPI to read company codes within SAP. 
+Further this example shows how a .NET code can be subsequently used for calling a BAPI to read company codes within SAP. In the actual business situation, it is important that you know which BAPI you need to call. It is also mandatory to understand how to use the following parameters in the BAPI.
+
+* Import - These are the parameters which you need to pass to SAP. Correct value must be passed to the respective field. 
+* Export - These are the parameters which are populated by SAP in the response. 
+* Changing - These can be passed by the program and can be changed by SAP before returing the response
+* Tables  - These can hold multiple values in rows. They are essentially changing parameters in tabular format. 
+
+#### Conclusion and further support
+Thanks for taking the time to go through our repository. We hope that this was useful. You can reach out to us by sending in your questions or feedback via our Website. 
