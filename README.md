@@ -6,13 +6,13 @@ The code demonstrate how NCO 3.0 library can be used for connecting with SAP ECC
 # SAP Integration using NCO 3.0 - Authenticating with SAP 
 While authenticating with SAP using NCO 3.0, the following parameters need to be specified.
 
-SAP_USERNAME - This is the SAP user name with which the call will be made. Ensure that it has proper authority. 
-SAP_APPSERVERHOST - This is the SAP Application server with which the connection will be made
-SAP_PASSWORD - The password corresponding to SAP_USERNAME
-SAP_SYSNUM - SAP System number with which the connection will be made
-SAP_CLIENT - SAP Client number 
-SAP_LANGUAGE - The language for communication. Kindly ensure that respective language has been installed by your BASIS team before specifying the value. 
-SAP_POOLSIZE - The pool size for the RFC call. 
+* SAP_USERNAME - This is the SAP user name with which the call will be made. Ensure that it has proper authority. 
+* SAP_APPSERVERHOST - This is the SAP Application server with which the connection will be made
+* SAP_PASSWORD - The password corresponding to SAP_USERNAME
+* SAP_SYSNUM - SAP System number with which the connection will be made
+* SAP_CLIENT - SAP Client number 
+* SAP_LANGUAGE - The language for communication. Kindly ensure that respective language has been installed by your BASIS team before specifying the value. 
+* SAP_POOLSIZE - The pool size for the RFC call. 
 
 ### Making a call to SAP for reading company codes
 Further this example shows how a .NET code can be subsequently used for calling a BAPI to read company codes within SAP. 
