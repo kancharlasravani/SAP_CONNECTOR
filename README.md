@@ -33,5 +33,8 @@ Further this example shows how a .NET code can be subsequently used for calling 
 * Changing - These can be passed by the program and can be changed by SAP before returing the response
 * Tables  - These can hold multiple values in rows. They are essentially changing parameters in tabular format. 
 
+### Business Case for SAP NCO 3.0 integration
+Using this understanding you can integrate SAP with other applications. As we know a lot of information lies within SAP. If other applications can exchange data from the platform, it can help the company get accurate information. For instance, if a Salesperson is submitting a quote within a third party CRM application, real time call can help him get accurate prices. Similary when quote is created, it comes to SAP on a real time basis. When the order is shipped out, the tracking number automatically flows to CRM. There are many other business cases, we shall be discussing the same in Wiki Pages of this repository in the coming times. 
+
 #### Conclusion and further support
 Thanks for taking the time to go through our repository. We hope that this was useful. You can reach out to us by sending in your questions or feedback via our Website. 
